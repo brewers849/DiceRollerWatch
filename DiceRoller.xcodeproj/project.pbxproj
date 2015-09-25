@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7ABB181BB5D927002614DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB171BB5D927002614DB /* AppDelegate.swift */; };
+		AB7ABB1A1BB5D927002614DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB191BB5D927002614DB /* ViewController.swift */; };
+		AB7ABB1D1BB5D927002614DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB1B1BB5D927002614DB /* Main.storyboard */; };
+		AB7ABB1F1BB5D927002614DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB1E1BB5D927002614DB /* Assets.xcassets */; };
+		AB7ABB221BB5D927002614DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB201BB5D927002614DB /* LaunchScreen.storyboard */; };
+		AB7ABB271BB5D927002614DB /* DiceRoller WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB7ABB261BB5D927002614DB /* DiceRoller WatchKit App.app */; };
+		AB7ABB2D1BB5D927002614DB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB2B1BB5D927002614DB /* Interface.storyboard */; };
+		AB7ABB2F1BB5D927002614DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB2E1BB5D927002614DB /* Assets.xcassets */; };
+		AB7ABB361BB5D927002614DB /* DiceRoller WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB7ABB351BB5D927002614DB /* DiceRoller WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB7ABB3D1BB5D927002614DB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB3C1BB5D927002614DB /* InterfaceController.swift */; };
+		AB7ABB3F1BB5D927002614DB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB3E1BB5D927002614DB /* ExtensionDelegate.swift */; };
+		AB7ABB411BB5D927002614DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB401BB5D927002614DB /* NotificationController.swift */; };
+		AB7ABB431BB5D927002614DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB421BB5D927002614DB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7ABB281BB5D927002614DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7ABB0C1BB5D927002614DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7ABB251BB5D927002614DB;
+			remoteInfo = "DiceRoller WatchKit App";
+		};
+		AB7ABB371BB5D927002614DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7ABB0C1BB5D927002614DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7ABB341BB5D927002614DB;
+			remoteInfo = "DiceRoller WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB7ABB4A1BB5D927002614DB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB7ABB361BB5D927002614DB /* DiceRoller WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7ABB4E1BB5D927002614DB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB7ABB271BB5D927002614DB /* DiceRoller WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB7ABB141BB5D927002614DB /* DiceRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7ABB171BB5D927002614DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB7ABB191BB5D927002614DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB7ABB1C1BB5D927002614DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7ABB1E1BB5D927002614DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7ABB211BB5D927002614DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB7ABB231BB5D927002614DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7ABB261BB5D927002614DB /* DiceRoller WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiceRoller WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7ABB2C1BB5D927002614DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AB7ABB2E1BB5D927002614DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7ABB301BB5D927002614DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7ABB351BB5D927002614DB /* DiceRoller WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DiceRoller WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7ABB3B1BB5D927002614DB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AB7ABB3C1BB5D927002614DB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AB7ABB3E1BB5D927002614DB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		AB7ABB401BB5D927002614DB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AB7ABB421BB5D927002614DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7ABB441BB5D927002614DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7ABB111BB5D927002614DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7ABB321BB5D927002614DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7ABB0B1BB5D927002614DB = {
+			isa = PBXGroup;
+			children = (
+				AB7ABB161BB5D927002614DB /* DiceRoller */,
+				AB7ABB2A1BB5D927002614DB /* DiceRoller WatchKit App */,
+				AB7ABB391BB5D927002614DB /* DiceRoller WatchKit Extension */,
+				AB7ABB151BB5D927002614DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7ABB151BB5D927002614DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7ABB141BB5D927002614DB /* DiceRoller.app */,
+				AB7ABB261BB5D927002614DB /* DiceRoller WatchKit App.app */,
+				AB7ABB351BB5D927002614DB /* DiceRoller WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7ABB161BB5D927002614DB /* DiceRoller */ = {
+			isa = PBXGroup;
+			children = (
+				AB7ABB171BB5D927002614DB /* AppDelegate.swift */,
+				AB7ABB191BB5D927002614DB /* ViewController.swift */,
+				AB7ABB1B1BB5D927002614DB /* Main.storyboard */,
+				AB7ABB1E1BB5D927002614DB /* Assets.xcassets */,
+				AB7ABB201BB5D927002614DB /* LaunchScreen.storyboard */,
+				AB7ABB231BB5D927002614DB /* Info.plist */,
+			);
+			path = DiceRoller;
+			sourceTree = "<group>";
+		};
+		AB7ABB2A1BB5D927002614DB /* DiceRoller WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AB7ABB2B1BB5D927002614DB /* Interface.storyboard */,
+				AB7ABB2E1BB5D927002614DB /* Assets.xcassets */,
+				AB7ABB301BB5D927002614DB /* Info.plist */,
+			);
+			path = "DiceRoller WatchKit App";
+			sourceTree = "<group>";
+		};
+		AB7ABB391BB5D927002614DB /* DiceRoller WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB7ABB3C1BB5D927002614DB /* InterfaceController.swift */,
+				AB7ABB3E1BB5D927002614DB /* ExtensionDelegate.swift */,
+				AB7ABB401BB5D927002614DB /* NotificationController.swift */,
+				AB7ABB421BB5D927002614DB /* Assets.xcassets */,
+				AB7ABB441BB5D927002614DB /* Info.plist */,
+				AB7ABB3A1BB5D927002614DB /* Supporting Files */,
+			);
+			path = "DiceRoller WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AB7ABB3A1BB5D927002614DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7ABB3B1BB5D927002614DB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7ABB131BB5D927002614DB /* DiceRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7ABB4F1BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller" */;
+			buildPhases = (
+				AB7ABB101BB5D927002614DB /* Sources */,
+				AB7ABB111BB5D927002614DB /* Frameworks */,
+				AB7ABB121BB5D927002614DB /* Resources */,
+				AB7ABB4E1BB5D927002614DB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7ABB291BB5D927002614DB /* PBXTargetDependency */,
+			);
+			name = DiceRoller;
+			productName = DiceRoller;
+			productReference = AB7ABB141BB5D927002614DB /* DiceRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7ABB251BB5D927002614DB /* DiceRoller WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7ABB4B1BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */;
+			buildPhases = (
+				AB7ABB241BB5D927002614DB /* Resources */,
+				AB7ABB4A1BB5D927002614DB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7ABB381BB5D927002614DB /* PBXTargetDependency */,
+			);
+			name = "DiceRoller WatchKit App";
+			productName = "DiceRoller WatchKit App";
+			productReference = AB7ABB261BB5D927002614DB /* DiceRoller WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AB7ABB341BB5D927002614DB /* DiceRoller WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7ABB471BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit Extension" */;
+			buildPhases = (
+				AB7ABB311BB5D927002614DB /* Sources */,
+				AB7ABB321BB5D927002614DB /* Frameworks */,
+				AB7ABB331BB5D927002614DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DiceRoller WatchKit Extension";
+			productName = "DiceRoller WatchKit Extension";
+			productReference = AB7ABB351BB5D927002614DB /* DiceRoller WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7ABB0C1BB5D927002614DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jonathan Dummer";
+				TargetAttributes = {
+					AB7ABB131BB5D927002614DB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AB7ABB251BB5D927002614DB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					AB7ABB341BB5D927002614DB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = AB7ABB0F1BB5D927002614DB /* Build configuration list for PBXProject "DiceRoller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7ABB0B1BB5D927002614DB;
+			productRefGroup = AB7ABB151BB5D927002614DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7ABB131BB5D927002614DB /* DiceRoller */,
+				AB7ABB251BB5D927002614DB /* DiceRoller WatchKit App */,
+				AB7ABB341BB5D927002614DB /* DiceRoller WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7ABB121BB5D927002614DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7ABB221BB5D927002614DB /* LaunchScreen.storyboard in Resources */,
+				AB7ABB1F1BB5D927002614DB /* Assets.xcassets in Resources */,
+				AB7ABB1D1BB5D927002614DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7ABB241BB5D927002614DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7ABB2F1BB5D927002614DB /* Assets.xcassets in Resources */,
+				AB7ABB2D1BB5D927002614DB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7ABB331BB5D927002614DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7ABB431BB5D927002614DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7ABB101BB5D927002614DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7ABB1A1BB5D927002614DB /* ViewController.swift in Sources */,
+				AB7ABB181BB5D927002614DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7ABB311BB5D927002614DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7ABB411BB5D927002614DB /* NotificationController.swift in Sources */,
+				AB7ABB3F1BB5D927002614DB /* ExtensionDelegate.swift in Sources */,
+				AB7ABB3D1BB5D927002614DB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7ABB291BB5D927002614DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7ABB251BB5D927002614DB /* DiceRoller WatchKit App */;
+			targetProxy = AB7ABB281BB5D927002614DB /* PBXContainerItemProxy */;
+		};
+		AB7ABB381BB5D927002614DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7ABB341BB5D927002614DB /* DiceRoller WatchKit Extension */;
+			targetProxy = AB7ABB371BB5D927002614DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7ABB1B1BB5D927002614DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7ABB1C1BB5D927002614DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7ABB201BB5D927002614DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7ABB211BB5D927002614DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7ABB2B1BB5D927002614DB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7ABB2C1BB5D927002614DB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7ABB451BB5D927002614DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB7ABB461BB5D927002614DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7ABB481BB5D927002614DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DiceRoller WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cuw-390.DiceRoller.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		AB7ABB491BB5D927002614DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DiceRoller WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cuw-390.DiceRoller.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		AB7ABB4C1BB5D927002614DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DiceRoller_WatchKit_Extension;
+				INFOPLIST_FILE = "DiceRoller WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cuw-390.DiceRoller.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		AB7ABB4D1BB5D927002614DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = DiceRoller_WatchKit_Extension;
+				INFOPLIST_FILE = "DiceRoller WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cuw-390.DiceRoller.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		AB7ABB501BB5D927002614DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiceRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cuw-390.DiceRoller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB7ABB511BB5D927002614DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiceRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cuw-390.DiceRoller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7ABB0F1BB5D927002614DB /* Build configuration list for PBXProject "DiceRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7ABB451BB5D927002614DB /* Debug */,
+				AB7ABB461BB5D927002614DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7ABB471BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7ABB481BB5D927002614DB /* Debug */,
+				AB7ABB491BB5D927002614DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB7ABB4B1BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7ABB4C1BB5D927002614DB /* Debug */,
+				AB7ABB4D1BB5D927002614DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB7ABB4F1BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7ABB501BB5D927002614DB /* Debug */,
+				AB7ABB511BB5D927002614DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7ABB0C1BB5D927002614DB /* Project object */;
+}
