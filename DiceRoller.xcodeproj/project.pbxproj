@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB5EBED41BB9CDE700D8C746 /* d20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB5EBED31BB9CDE700D8C746 /* d20.jpg */; settings = {ASSET_TAGS = (); }; };
+		AB5EBED61BB9CE4600D8C746 /* diceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5EBED51BB9CE4600D8C746 /* diceRow.swift */; settings = {ASSET_TAGS = (); }; };
 		AB7ABB181BB5D927002614DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB171BB5D927002614DB /* AppDelegate.swift */; };
 		AB7ABB1A1BB5D927002614DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB191BB5D927002614DB /* ViewController.swift */; };
 		AB7ABB1D1BB5D927002614DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB1B1BB5D927002614DB /* Main.storyboard */; };
@@ -20,6 +22,14 @@
 		AB7ABB3F1BB5D927002614DB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB3E1BB5D927002614DB /* ExtensionDelegate.swift */; };
 		AB7ABB411BB5D927002614DB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ABB401BB5D927002614DB /* NotificationController.swift */; };
 		AB7ABB431BB5D927002614DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7ABB421BB5D927002614DB /* Assets.xcassets */; };
+		ABA0F1841BBC44B000CABCBA /* TableExampleICInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA0F1831BBC44B000CABCBA /* TableExampleICInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		ABA0F1861BBC4B8B00CABCBA /* d12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F1851BBC4B8B00CABCBA /* d12.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABA0F18C1BBC502200CABCBA /* d4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F1871BBC502200CABCBA /* d4.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABA0F18D1BBC502200CABCBA /* d6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F1881BBC502200CABCBA /* d6.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABA0F18E1BBC502200CABCBA /* d8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F1891BBC502200CABCBA /* d8.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABA0F18F1BBC502200CABCBA /* d10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F18A1BBC502200CABCBA /* d10.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABA0F1901BBC502200CABCBA /* d100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA0F18B1BBC502200CABCBA /* d100.jpg */; settings = {ASSET_TAGS = (); }; };
+		ABD0A0541BBEF65700F3B921 /* pickerExampleIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0A0531BBEF65700F3B921 /* pickerExampleIC.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +75,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB5EBED31BB9CDE700D8C746 /* d20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d20.jpg; sourceTree = "<group>"; };
+		AB5EBED51BB9CE4600D8C746 /* diceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = diceRow.swift; sourceTree = "<group>"; };
 		AB7ABB141BB5D927002614DB /* DiceRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7ABB171BB5D927002614DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7ABB191BB5D927002614DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +95,14 @@
 		AB7ABB401BB5D927002614DB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		AB7ABB421BB5D927002614DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB7ABB441BB5D927002614DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA0F1831BBC44B000CABCBA /* TableExampleICInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableExampleICInterfaceController.swift; sourceTree = "<group>"; };
+		ABA0F1851BBC4B8B00CABCBA /* d12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d12.jpg; sourceTree = "<group>"; };
+		ABA0F1871BBC502200CABCBA /* d4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d4.jpg; sourceTree = "<group>"; };
+		ABA0F1881BBC502200CABCBA /* d6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d6.jpg; sourceTree = "<group>"; };
+		ABA0F1891BBC502200CABCBA /* d8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d8.jpg; sourceTree = "<group>"; };
+		ABA0F18A1BBC502200CABCBA /* d10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d10.jpg; sourceTree = "<group>"; };
+		ABA0F18B1BBC502200CABCBA /* d100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d100.jpg; sourceTree = "<group>"; };
+		ABD0A0531BBEF65700F3B921 /* pickerExampleIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pickerExampleIC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB5EBECE1BB9CD5700D8C746 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABA0F1871BBC502200CABCBA /* d4.jpg */,
+				ABA0F1881BBC502200CABCBA /* d6.jpg */,
+				ABA0F1891BBC502200CABCBA /* d8.jpg */,
+				ABA0F18A1BBC502200CABCBA /* d10.jpg */,
+				ABA0F18B1BBC502200CABCBA /* d100.jpg */,
+				ABA0F1851BBC4B8B00CABCBA /* d12.jpg */,
+				AB5EBED31BB9CDE700D8C746 /* d20.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		AB7ABB0B1BB5D927002614DB = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +173,7 @@
 		AB7ABB2A1BB5D927002614DB /* DiceRoller WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				AB5EBECE1BB9CD5700D8C746 /* Images */,
 				AB7ABB2B1BB5D927002614DB /* Interface.storyboard */,
 				AB7ABB2E1BB5D927002614DB /* Assets.xcassets */,
 				AB7ABB301BB5D927002614DB /* Info.plist */,
@@ -155,6 +190,9 @@
 				AB7ABB421BB5D927002614DB /* Assets.xcassets */,
 				AB7ABB441BB5D927002614DB /* Info.plist */,
 				AB7ABB3A1BB5D927002614DB /* Supporting Files */,
+				AB5EBED51BB9CE4600D8C746 /* diceRow.swift */,
+				ABA0F1831BBC44B000CABCBA /* TableExampleICInterfaceController.swift */,
+				ABD0A0531BBEF65700F3B921 /* pickerExampleIC.swift */,
 			);
 			path = "DiceRoller WatchKit Extension";
 			sourceTree = "<group>";
@@ -278,6 +316,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA0F18C1BBC502200CABCBA /* d4.jpg in Resources */,
+				ABA0F18D1BBC502200CABCBA /* d6.jpg in Resources */,
+				AB5EBED41BB9CDE700D8C746 /* d20.jpg in Resources */,
+				ABA0F18F1BBC502200CABCBA /* d10.jpg in Resources */,
+				ABA0F1901BBC502200CABCBA /* d100.jpg in Resources */,
+				ABA0F18E1BBC502200CABCBA /* d8.jpg in Resources */,
+				ABA0F1861BBC4B8B00CABCBA /* d12.jpg in Resources */,
 				AB7ABB2F1BB5D927002614DB /* Assets.xcassets in Resources */,
 				AB7ABB2D1BB5D927002614DB /* Interface.storyboard in Resources */,
 			);
@@ -308,8 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7ABB411BB5D927002614DB /* NotificationController.swift in Sources */,
+				AB5EBED61BB9CE4600D8C746 /* diceRow.swift in Sources */,
 				AB7ABB3F1BB5D927002614DB /* ExtensionDelegate.swift in Sources */,
 				AB7ABB3D1BB5D927002614DB /* InterfaceController.swift in Sources */,
+				ABD0A0541BBEF65700F3B921 /* pickerExampleIC.swift in Sources */,
+				ABA0F1841BBC44B000CABCBA /* TableExampleICInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +586,7 @@
 				AB7ABB491BB5D927002614DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB7ABB4B1BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +595,7 @@
 				AB7ABB4D1BB5D927002614DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB7ABB4F1BB5D927002614DB /* Build configuration list for PBXNativeTarget "DiceRoller" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +604,7 @@
 				AB7ABB511BB5D927002614DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
